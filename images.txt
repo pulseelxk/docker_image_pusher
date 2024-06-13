@@ -1,5 +1,2 @@
-
---platform=linux/arm64 docker:26.1.4
---platform=linux/arm64 docker:26.1.4-dind
---platform=linux/arm64 minidocks/lftp:latest
---platform=linux/arm64 onezoomin/allsync:latest
+--platform=linux/arm64 portainer/portainer-ce
+--platform=linux/amd64 portainer/portainer-ce
