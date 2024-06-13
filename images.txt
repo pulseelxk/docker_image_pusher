@@ -1,29 +1,17 @@
-# LNMP环境
-#nginx
-#nginx:1.17.10
-#等同于：--platform=linux/amd64 nginx:1.17.10 
-#php:5.6-fpm-alpine3.7
-#php:7.1.33-fpm-alpine3.9
-#php:7.2.34-fpm-alpine3.12
-#php:7.4-fpm
-#mysql:5.6.27
-#mariadb:10.6.17
-#redis:3.2
-#golang:1.13.4-alpine3.10
-# ELKF
-#elasticsearch:7.6.2
-#logstash:7.6.2
-#kibana:7.6.2
-#docker.elastic.co/beats/filebeat:7.6.2
-# gitlab-ci.yml 用到的镜像
-#docker:26.1.4
-#docker:26.1.4-dind
-#minidocks/lftp:latest
-#onezoomin/allsync:latest
-#xhofe/alist:latest
-#支持私库
-#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#支持指定架构
---platform=linux/arm64 nginx:1.17.10
-
-
+--platform=linux/amd64 nginx
+--platform=linux/amd64 php:5.6-fpm-alpine3.7
+--platform=linux/amd64 php:7.1.33-fpm-alpine3.9
+--platform=linux/amd64 php:7.2.34-fpm-alpine3.12
+--platform=linux/amd64 php:7.4-fpm
+--platform=linux/amd64 mysql:5.6.27
+--platform=linux/amd64 mariadb:10.6.17
+--platform=linux/amd64 redis:3.2
+--platform=linux/amd64 golang:1.13.4-alpine3.10
+--platform=linux/amd64 elasticsearch:7.6.2
+--platform=linux/amd64 logstash:7.6.2
+--platform=linux/amd64 kibana:7.6.2
+--platform=linux/amd64 docker.elastic.co/beats/filebeat:7.6.2
+--platform=linux/amd64 docker:26.1.4
+--platform=linux/amd64 docker:26.1.4-dind
+--platform=linux/amd64 minidocks/lftp:latest
+--platform=linux/amd64 onezoomin/allsync:latest
