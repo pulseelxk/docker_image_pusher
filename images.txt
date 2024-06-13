@@ -1,5 +1,5 @@
 --platform=linux/arm64 fclairamb/ftpserver:0.13.0
---platform=linux/arm64 fauria/vsftpd
+#--platform=linux/arm64 fauria/vsftpd
 --platform=linux/arm64 crazymax/ftpgrab:edge
 --platform=linux/arm64 corentinth/it-tools:nightly
 --platform=linux/arm64 linuxserver/qbittorrent:4.6.5
