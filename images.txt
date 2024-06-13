@@ -1,2 +1,10 @@
---platform=linux/arm64 portainer/portainer-ce
---platform=linux/amd64 portainer/portainer-ce
+--platform=linux/amd64 fclairamb/ftpserver:0.13.0
+--platform=linux/amd64 fauria/vsftpd
+--platform=linux/amd64 crazymax/ftpgrab:edge
+--platform=linux/amd64 corentinth/it-tools:nightly
+--platform=linux/amd64 linuxserver/qbittorrent:4.6.5
+--platform=linux/amd64 onlyoffice/documentserver:8.0.1
+--platform=linux/amd64 cloudreve/cloudreve:3.8.3
+--platform=linux/amd64 photoprism/photoprism:preview
+--platform=linux/amd64 frooodle/s-pdf:alpha
+--platform=linux/amd64 jgraph/drawio:24.5.4
