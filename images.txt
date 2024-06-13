@@ -13,12 +13,12 @@
 #elasticsearch:7.6.2
 #logstash:7.6.2
 #kibana:7.6.2
-docker.elastic.co/beats/filebeat:7.6.2
+#docker.elastic.co/beats/filebeat:7.6.2
 # gitlab-ci.yml 用到的镜像
-docker:26.1.4
-docker:26.1.4-dind
-minidocks/lftp:latest
-onezoomin/allsync:latest
+#docker:26.1.4
+#docker:26.1.4-dind
+#minidocks/lftp:latest
+#onezoomin/allsync:latest
 #xhofe/alist:latest
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
