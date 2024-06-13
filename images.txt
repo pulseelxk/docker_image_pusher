@@ -1,5 +1,5 @@
---platform=linux/arm64 docker.elastic.co/beats/filebeat:7.17.11
---platform=linux/amd64 alpine:3.7
---platform=linux/amd64 alpine:3.9
---platform=linux/amd64 alpine:3.12
---platform=linux/amd64 alpine:3.10
+
+--platform=linux/arm64 alpine:3.7    
+--platform=linux/arm64 alpine:3.9    
+--platform=linux/arm64 alpine:3.12   
+--platform=linux/arm64 alpine:3.10   
