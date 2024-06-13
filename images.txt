@@ -6,14 +6,14 @@
 #php:7.2.34-fpm-alpine3.12
 #php:7.4-fpm
 #mysql:5.6.27
-mariadb:10.6.17
-redis:3.2
+#mariadb:10.6.17
+#redis:3.2
 #golang:1.13.4-alpine3.10
 # ELKF
-elasticsearch:7.6.2
-logstash:7.6.2
-kibana:7.6.2
-beats/filebeat:7.6.2
+#elasticsearch:7.6.2
+#logstash:7.6.2
+#kibana:7.6.2
+docker.elastic.co/beats/filebeat:7.6.2
 # gitlab-ci.yml 用到的镜像
 docker:26.1.4
 docker:26.1.4-dind
