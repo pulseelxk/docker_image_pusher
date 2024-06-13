@@ -21,6 +21,6 @@
 #onezoomin/allsync:latest
 #xhofe/alist:latest
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #支持指定架构
---platform=linux/arm64 linux/amd64
+nginx:1.17.10 --platform=linux/arm64
